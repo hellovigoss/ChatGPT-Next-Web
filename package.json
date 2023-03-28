@@ -8,9 +8,6 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "browser": {
-    "child_process": false
-  },
   "dependencies": {
     "@svgr/webpack": "^6.5.1",
     "@types/node": "^18.14.6",
