@@ -14,7 +14,7 @@ async function createStream(req: NextRequest) {
     console.log("[Stream] using user api key");
   }
 
-  const res = await fetch("https://api.openai.com/v1/chat/completions", {
+  const res = await fetch("https://openai-proxy.yedai.fun/v1/chat/completions", {
     headers: {
       "Content-Type": "application/json",
       Authorization: `Bearer ${apiKey}`,
